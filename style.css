@@ -16,6 +16,15 @@ body {
     min-height: 100vh;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+    background-color: pink;
+}
+
+img {
+    width: 100px;
+}
+
+.bottom-icon {
+    width: 30px;
 }
 
 .attribution {
