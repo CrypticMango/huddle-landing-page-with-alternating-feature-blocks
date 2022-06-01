@@ -169,6 +169,27 @@ button {
 
 /*bottom section styling*/
 
+#bottom-community-card {
+    margin: 0px 15px 100px 15px;
+    padding: 25px 0px 35px 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(112, 112, 112, 0.582);
+
+}
+
+#bottom-community-card h2 {
+    font-size: 18px;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 25px;
+}
+
+#bottom-community-card button {
+    margin-bottom: 0px;
+    width: 230px;
+    height: 43px;
+    font-size: 12px;
+}
+
 .bottom-icon {
     width: 30px;
 }
