@@ -166,16 +166,18 @@ button {
     padding: 0px 10px 0px 10px;
 }
 
-
-/*bottom section styling*/
+/*bottom community card styling*/
 
 #bottom-community-card {
-    margin: 0px 15px 100px 15px;
-    padding: 25px 0px 35px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 25px 10px 35px 10px;
     border-radius: 15px;
-    box-shadow: 0px 0px 20px rgba(112, 112, 112, 0.582);
-
+    box-shadow: 0px 0px 15px hsla(192, 100%, 9%, 0.164);;
+    position: relative;
+    top: 60px;
+    background-color: white;
 }
+
 
 #bottom-community-card h2 {
     font-size: 18px;
@@ -190,13 +192,58 @@ button {
     font-size: 12px;
 }
 
-.bottom-icon {
-    width: 30px;
+
+
+/*bottom section styling*/
+
+svg {
+    display: flex;
+    align-self: flex-start;
+    width: 170px;
+    padding: 150px 0px 0px 0px;
 }
+
+#bottom-section {
+    background-color: var(--very-dark-cyan);
+    text-align: left;
+}
+
+#bottom-section p {
+    color: white;
+}
+
+#bottom-section div {
+    display: flex;
+}
+
+#bottom-section img {
+    align-self: center;
+    margin: 0px 25px 0px 0px;
+
+}
+
+#bottom-section a {
+    color: white;
+    text-decoration: none;
+}
+
+#location-icon {
+    width: 50px;
+}
+
+#phone-icon, #email-icon {
+    width: 20px;
+}
+
 
 /*bottom nav links styling*/
 
 /*attribution styling*/
+
+footer {
+    width: 100%;
+    background-color: var(--very-dark-cyan);
+}
 
 .attribution {
 	font-size: 11px;
