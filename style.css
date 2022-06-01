@@ -24,7 +24,7 @@ body {
 }
 
 header nav {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
     display: flex;
     flex-direction: row;
@@ -49,9 +49,14 @@ p {
 }
 
 nav img {
-    width: 40%;
+    width: 110px;
     align-self: center;
 }
+
+nav {
+    margin: 0px 20px 0px 20px;
+}
+
 
 img {
     width: 300px;
@@ -77,6 +82,19 @@ button {
 
 #top-info {
     padding: 0px 15px 20px 15px;
+    color: var(--very-dark-cyan);
+}
+
+#try-free-button {
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px rgba(136, 132, 132, 0.384);
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
 }
 
 /*top section styling*/
