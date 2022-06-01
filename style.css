@@ -20,17 +20,32 @@ body {
     background-image: url(/images/bg-hero-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    text-align: center;
 }
 
-img {
-    width: 100px;
-}
-
-nav {
-    margin-top: 30px;
+header nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+h1, h2 {
+    color: var(--very-dark-cyan);
+}
+
+h1 {
+    font-size: 28px;
+    padding: 0px 20px 10px 20px;
+}
+
+h2 {
+    font-size: larger;
+}
+
+p {
+    color: var(--grayish-blue);
 }
 
 nav img {
@@ -38,17 +53,63 @@ nav img {
     align-self: center;
 }
 
+img {
+    width: 300px;
+}
+
+button {
+    background-color: var(--pink);
+    color: white;
+    border: 1px solid var(--pink);
+    border-radius: 50px;
+    width: 270px;
+    height: 50px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    font-family: var(--body-call-to-actions-font);
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+
 /*top nav styling*/
+
+#top-info {
+    padding: 0px 15px 20px 15px;
+}
 
 /*top section styling*/
 
+#top-section {
+    background-color: hsla(192, 100%, 96%, 0.562);
+    padding-bottom: 30px;
+}
+
 /*grow together card styling*/
+
+#grow-pic {
+    width: 235px;
+}
+
+#grow-together-card {
+    margin: 70px 20px 0px 20px;
+    padding: 70px 25px 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(145, 143, 143, 0.356);
+}
+
+#grow-together-card p {
+    font-size: 15px;
+    padding: 0px 5px 0px 5px;
+}
 
 /*flowing conversations card styling*/
 
 /*you users card styling*/
 
 /*bottom section styling*/
+
 .bottom-icon {
     width: 30px;
 }
