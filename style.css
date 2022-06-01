@@ -6,6 +6,7 @@
     --headings-font: 'Poppins', sans-serif;
     --body-call-to-actions-font: 'Open Sans', sans-serif;
 }
+/*general element styling*/
 
 body {
     align-items: center;
@@ -37,9 +38,24 @@ nav img {
     align-self: center;
 }
 
+/*top nav styling*/
+
+/*top section styling*/
+
+/*grow together card styling*/
+
+/*flowing conversations card styling*/
+
+/*you users card styling*/
+
+/*bottom section styling*/
 .bottom-icon {
     width: 30px;
 }
+
+/*bottom nav links styling*/
+
+/*attribution styling*/
 
 .attribution {
 	font-size: 11px;
@@ -48,3 +64,7 @@ nav img {
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+
+
+
