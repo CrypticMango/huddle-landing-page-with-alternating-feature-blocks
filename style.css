@@ -16,11 +16,25 @@ body {
     min-height: 100vh;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    background-color: pink;
+    background-image: url(/images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 img {
     width: 100px;
+}
+
+nav {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 40%;
+    align-self: center;
 }
 
 .bottom-icon {
