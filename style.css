@@ -117,12 +117,37 @@ button {
     box-shadow: 0px 0px 15px rgba(145, 143, 143, 0.356);
 }
 
-#grow-together-card p {
-    font-size: 15px;
-    padding: 0px 5px 0px 5px;
+#flowing-conversations-card h2 {
+    margin-top: 60px;
 }
 
-/*you users card styling*/
+#flowing-conversations-card p {
+    font-size: 15px;
+    padding: 0px 5px 20px 5px;
+}
+
+/*your users card styling*/
+
+#users-pic {
+    width: 235px;
+}
+
+#your-users-card {
+    margin: 50px 20px 100px 20px;
+    padding: 70px 25px 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(145, 143, 143, 0.356);
+}
+
+#your-users-card h2 {
+    margin-top: 40px;
+}
+
+#your-users-card p {
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+}
+
 
 /*bottom section styling*/
 
