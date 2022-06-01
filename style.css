@@ -206,10 +206,12 @@ svg {
 #bottom-section {
     background-color: var(--very-dark-cyan);
     text-align: left;
+    padding-left: 20px;
 }
 
 #bottom-section p {
     color: white;
+    font-size: 17px;
 }
 
 #bottom-section div {
@@ -235,8 +237,37 @@ svg {
     width: 20px;
 }
 
+#email-link {
+    margin-bottom: 60px;
+}
+
+#bottom-copywright {
+    font-size: 12px;
+}
+
 
 /*bottom nav links styling*/
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+/*social links*/
+
+#social-icons {
+    margin-top: 50px; 
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+}
 
 /*attribution styling*/
 
