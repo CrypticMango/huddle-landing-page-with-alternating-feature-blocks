@@ -231,6 +231,8 @@ svg {
 
 #location-icon {
     width: 50px;
+    position: relative;
+    top: -27px;
 }
 
 #phone-icon, #email-icon {
@@ -241,10 +243,13 @@ svg {
     margin-bottom: 60px;
 }
 
-#bottom-copywright {
+#rights-reserved p {
     font-size: 12px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: white;
 }
-
 
 /*bottom nav links styling*/
 
@@ -261,12 +266,22 @@ li {
 
 #social-icons {
     margin-top: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fa-brands {
-    font-size: 25px;
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
     color: white;
     margin-right: 20px;
+}
+
+.fa-brands:hover {
+    color: var(--pink);
+    border: 1px solid var(--pink);
 }
 
 /*attribution styling*/
@@ -279,11 +294,8 @@ footer {
 .attribution {
 	font-size: 11px;
 	text-align: center;
+    color: white;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
-
-
-
-
