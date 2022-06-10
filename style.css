@@ -380,4 +380,40 @@ footer {
     #d-section-one button {
         margin: 30px 0px 0px 0px;
     }
+
+    /*middle cards styling*/
+
+    #grow-together-card, #your-users-card,  #flowing-conversations-card {
+        text-align: left;
+    }
+
+    #grow-together-card p, #your-users-card p,  #flowing-conversations-card p {
+        padding: 0px;
+    }
+
+    #grow-together-card, #your-users-card {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #grow-together-card p, #grow-together-card h2 {
+        margin: 0px 0px 0px 80px;
+    }
+
+    #your-users-card p, #your-users-card h2 {
+        margin: 0px 0px 0px 80px;
+    }
+
+    #flowing-conversations-card {
+        display: flex;
+    }
+
+    #grow-pic, #flowing-pic, #users-pic {
+        width: 400px;
+    }
+
+    #flowing-pic {
+        margin: 0px 0px 0px 80px;
+    }
+
 }
