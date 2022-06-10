@@ -36,8 +36,9 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 26px;
     padding: 0px 20px 10px 20px;
+    margin-top: 60px;
 }
 
 h2 {
@@ -67,9 +68,9 @@ button {
     color: white;
     border: 1px solid var(--pink);
     border-radius: 50px;
-    width: 270px;
-    height: 50px;
-    font-size: 15px;
+    width: 240px;
+    height: 45px;
+    font-size: 13px;
     display: block;
     margin: 0 auto;
     font-family: var(--body-call-to-actions-font);
@@ -77,12 +78,18 @@ button {
     margin-bottom: 60px;
 }
 
+button:hover {
+    background-color: hsl(322, 81%, 75%);
+    border: 1px solid hsl(322, 81%, 75%);
+}
+
 
 /*top nav styling*/
 
 #top-info {
-    padding: 0px 15px 20px 15px;
+    padding: 0px 25px 20px 25px;
     color: var(--very-dark-cyan);
+    font-size: 17px;
 }
 
 #try-free-button {
@@ -95,6 +102,10 @@ button {
     padding: 0px;
     margin: 0px;
     font-size: 12px;
+}
+
+#try-free-button:hover {
+    color: grey;
 }
 
 /*top section styling*/
@@ -201,12 +212,13 @@ svg {
     align-self: flex-start;
     width: 170px;
     padding: 150px 0px 0px 0px;
+    padding-left: 20px;
 }
 
 #bottom-section {
     background-color: var(--very-dark-cyan);
     text-align: left;
-    padding-left: 20px;
+    
 }
 
 #bottom-section p {
@@ -233,14 +245,21 @@ svg {
     width: 50px;
     position: relative;
     top: -27px;
+    padding-left: 20px;
 }
 
 #phone-icon, #email-icon {
     width: 20px;
 }
 
+#phone-icon {
+    padding-left: 20px;
+}
+
 #email-link {
     margin-bottom: 60px;
+    margin-top: 10px; 
+    padding-left: 20px;
 }
 
 #rights-reserved p {
@@ -249,6 +268,7 @@ svg {
     margin: 0 auto;
     margin-top: 30px;
     color: white;
+    padding: 0px;
 }
 
 /*bottom nav links styling*/
@@ -256,6 +276,7 @@ svg {
 ul {
     padding: 0px;
     list-style: none;
+    padding-left: 20px;
 }
 
 li {
