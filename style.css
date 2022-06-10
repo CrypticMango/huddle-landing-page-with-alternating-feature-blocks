@@ -452,4 +452,23 @@ footer {
     #flowing-pic {
         margin: 0px 190px 0px 110px;
     }
+
+    /*bottom section styling*/
+
+    /*bottom community card*/
+
+    #bottom-community-card {
+        width: 650px;
+        height: 160px;
+    }
+
+    #bottom-community-card h2 {
+        font-size: 28px;
+    }
+
+    #bottom-community-card button {
+        width: 320px;
+        height: 65px;
+        font-size: 18px;
+    }
 }
