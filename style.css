@@ -81,6 +81,7 @@ button {
 button:hover {
     background-color: hsl(322, 81%, 75%);
     border: 1px solid hsl(322, 81%, 75%);
+    cursor: pointer;
 }
 
 
@@ -106,6 +107,7 @@ button:hover {
 
 #try-free-button:hover {
     color: grey;
+    cursor: pointer;
 }
 
 /*top section styling*/
@@ -303,6 +305,7 @@ li {
 .fa-brands:hover {
     color: var(--pink);
     border: 1px solid var(--pink);
+    cursor: pointer;
 }
 
 /*attribution styling*/
@@ -319,4 +322,62 @@ footer {
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+/*------------desktop styling start---------------*/ 
+
+@media (min-width: 1440px) {
+    /*general element styling*/
+
+    body {
+        background-image: url(/images/bg-hero-desktop.svg);
+        margin: 0px 80px 0px 80px;
+    }
+
+    /*nav styling*/
+
+    header {
+        margin: 40px 0px 40px 0px
+    }
+
+    nav {
+        margin: 0px 0px 0px 0px;
+    }
+
+    nav img {
+        width: 180px;
+    }
+
+    #try-free-button {
+        width: 180px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    /*section one styling*/
+
+    #d-section-one {
+        display: flex;
+        margin-bottom: 110px;
+    }
+
+    #d-section-one img {
+        width: 650px;
+    }
+
+    #d-section-one h1 {
+        font-size: 38px;
+        text-align: left;
+        padding: 0px 150px 0px 0px;
+    }
+
+    #d-section-one p {
+        padding: 0px 100px 0px 0px;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    #d-section-one button {
+        margin: 30px 0px 0px 0px;
+    }
 }
