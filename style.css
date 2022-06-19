@@ -244,7 +244,7 @@ svg {
 }
 
 #location-icon {
-    width: 50px;
+    width: 20px;
     position: relative;
     top: -27px;
     padding-left: 20px;
@@ -488,7 +488,51 @@ footer {
 
     #bottom-section {
         width: 100%;
-        padding-top: 100px;
+        padding-top: 190px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
     }
 
+    #location-icon {
+        position: relative;
+        top: 6px;
+    }
+
+    #location-paragraph {
+        
+    }
+
+    ul {
+        display: flex;
+    }
+
+    svg {
+        padding-top: 0px;
+    }
+    
+    #bottom-flex-boxone {
+        width: 420px;
+    }
+
+    #top-list, #bottom-list {
+        padding-top: 35px;
+    }
+
+    #top-list {
+        padding-right: 100px;
+    }
+
+    #social-and-copywright {
+        padding-top: 15px;
+    }
+
+    #social-icons {
+        padding-bottom: 150px;
+        text-align: left;
+    }
+    
+    #rights-reserved {
+        padding-bottom: 50px;
+    }
 }
