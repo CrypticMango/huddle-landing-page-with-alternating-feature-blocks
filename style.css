@@ -285,6 +285,10 @@ li {
     margin-bottom: 15px;
 }
 
+li:hover {
+    text-decoration: underline;
+}
+
 /*social links*/
 
 #social-icons {
@@ -303,6 +307,12 @@ li {
     background-color: transparent;
 }
 
+.social-button:hover {
+    background-color: transparent;
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
 .fa-brands {
     width: 10px;
     height: 10px;
@@ -312,8 +322,22 @@ li {
 
 .fa-brands:hover {
     color: var(--pink);
-    border: 1px solid var(--pink);
-    cursor: pointer;
+  
+}
+
+.fa-facebook-f {
+    margin-right: 2px;
+    margin-top: 4px;
+}
+
+.fa-twitter {
+    margin-right: 7px;
+    margin-top: 3px;
+}
+
+.fa-instagram {
+    margin-top: 3px;
+    margin-right: 6px;
 }
 
 /*attribution styling*/
