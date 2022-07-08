@@ -299,6 +299,7 @@ li:hover {
 }
 
 .social-button {
+    margin: 20px 20px 0px 0px;
     width: 40px;
     height: 40px;
     border: 1px solid white;
@@ -552,7 +553,7 @@ footer {
     }
 
     #top-list, #bottom-list {
-        padding-top: 35px;
+        padding-top: 60px;
     }
 
     #top-list {
@@ -564,7 +565,7 @@ footer {
     }
 
     #social-icons {
-        padding-bottom: 150px;
+        padding-bottom: 80px;
         text-align: left;
         display: flex;
         align-items: unset;
